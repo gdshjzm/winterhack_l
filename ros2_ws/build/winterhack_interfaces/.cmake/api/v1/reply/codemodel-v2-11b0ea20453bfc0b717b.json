@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-71fa8f5b8822990e7c2c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "winterhack_interfaces__py",
+					"jsonFile" : "directory-winterhack_interfaces__py-ace888f88a50cee4ac89.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/siyuen/Desktop/ros2_ws/build/winterhack_interfaces/winterhack_interfaces__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "winterhack_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_winterhack_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_winterhack_interfaces_egg-dbf519bfb1c70923c1ce.json",
+					"name" : "ament_cmake_python_build_winterhack_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_winterhack_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_winterhack_interfaces-188afaa1839f5a9c6c20.json",
+					"name" : "ament_cmake_python_copy_winterhack_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-139bd009b6326f7982fd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "winterhack_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-winterhack_interfaces-3ae59b713808a6862e39.json",
+					"name" : "winterhack_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "winterhack_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-winterhack_interfaces__cpp-1c79aa622a63f45768fd.json",
+					"name" : "winterhack_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "winterhack_interfaces__py::@c646b6bb0fb5663e666c",
+					"jsonFile" : "target-winterhack_interfaces__py-a6262f515ad26036f6b0.json",
+					"name" : "winterhack_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "winterhack_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-winterhack_interfaces__rosidl_generator_c-8c40d985b9644285b8c2.json",
+					"name" : "winterhack_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "winterhack_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-winterhack_interfaces__rosidl_generator_py-ce5951c8bc4a32b2fc65.json",
+					"name" : "winterhack_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "winterhack_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-winterhack_interfaces__rosidl_typesupport_c-38d4af923b6eb0e0a49a.json",
+					"name" : "winterhack_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "winterhack_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-winterhack_interfaces__rosidl_typesupport_c__pyext-1a3690c35770f2287d22.json",
+					"name" : "winterhack_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "winterhack_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-winterhack_interfaces__rosidl_typesupport_cpp-59f51bed64ea55aaa754.json",
+					"name" : "winterhack_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "winterhack_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-winterhack_interfaces__rosidl_typesupport_fastrtps_c-5f5ceb765aa5ea7c9f9d.json",
+					"name" : "winterhack_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "winterhack_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-winterhack_interfaces__rosidl_typesupport_fastrtps_c__pyext-290608478f399c452eeb.json",
+					"name" : "winterhack_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "winterhack_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-winterhack_interfaces__rosidl_typesupport_fastrtps_cpp-8827569b93fb180dd18f.json",
+					"name" : "winterhack_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "winterhack_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-winterhack_interfaces__rosidl_typesupport_introspection_c-bb58486abffa174a0a5c.json",
+					"name" : "winterhack_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "winterhack_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-winterhack_interfaces__rosidl_typesupport_introspection_c__pyext-10ed459d610a51ced4a9.json",
+					"name" : "winterhack_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "winterhack_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-winterhack_interfaces__rosidl_typesupport_introspection_cpp-05f8f7f2c15e09a2406b.json",
+					"name" : "winterhack_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "winterhack_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-winterhack_interfaces_uninstall-96155adef894988d21a4.json",
+					"name" : "winterhack_interfaces_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/siyuen/Desktop/ros2_ws/build/winterhack_interfaces",
+		"source" : "/home/siyuen/Desktop/ros2_ws/src/winterhack_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

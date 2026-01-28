@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c91cc9e9630013dc9726.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "trac_ik_kinematics_plugin",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "trac_ik_kinematics_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trac_ik_kinematics_parameters-2224ef1c189dd6dc197e.json",
+					"name" : "trac_ik_kinematics_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trac_ik_kinematics_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trac_ik_kinematics_plugin-242e3162227062084d88.json",
+					"name" : "trac_ik_kinematics_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trac_ik_kinematics_plugin_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trac_ik_kinematics_plugin_uninstall-9893fbfc6736a6c3459d.json",
+					"name" : "trac_ik_kinematics_plugin_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f57b5d165db82c413616.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/siyuen/Desktop/ros2_ws/build/trac_ik_kinematics_plugin",
+		"source" : "/home/siyuen/Desktop/ros2_ws/src/trac_ik/trac_ik_kinematics_plugin"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

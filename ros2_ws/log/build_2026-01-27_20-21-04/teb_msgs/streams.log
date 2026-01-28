@@ -1,0 +1,286 @@
+[0.024s] Invoking command in '/home/siyuen/Desktop/ros2_ws/build/teb_msgs': CMAKE_PREFIX_PATH=/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs:/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces:/home/siyuen/Desktop/ros2_ws/install/trac_ik:/home/siyuen/Desktop/ros2_ws/install/trac_ik_kinematics_plugin:/home/siyuen/Desktop/ros2_ws/install/trac_ik_lib:/home/siyuen/Desktop/ros2_ws/install/teb_local_planner:/home/siyuen/Desktop/ros2_ws/install/teb_msgs:/home/siyuen/Desktop/ros2_ws/install/holonomic_sim:/home/siyuen/Desktop/ros2_ws/install/costmap_converter:/home/siyuen/Desktop/ros2_ws/install/winterhack:/home/siyuen/Desktop/ros2_ws/install/robot_gazebo:/home/siyuen/Desktop/ros2_ws/install/landerpi_description:/opt/ros/humble LD_LIBRARY_PATH=/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs/lib:/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces/lib:/home/siyuen/Desktop/ros2_ws/install/trac_ik_kinematics_plugin/lib:/home/siyuen/Desktop/ros2_ws/install/trac_ik_lib/lib:/home/siyuen/Desktop/ros2_ws/install/teb_local_planner/lib:/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib:/home/siyuen/Desktop/ros2_ws/install/holonomic_sim/lib:/home/siyuen/Desktop/ros2_ws/install/costmap_converter/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_CursoryptyN0/usr/lib/:/tmp/.mount_CursoryptyN0/usr/lib32/:/tmp/.mount_CursoryptyN0/usr/lib64/:/tmp/.mount_CursoryptyN0/lib/:/tmp/.mount_CursoryptyN0/lib/i386-linux-gnu/:/tmp/.mount_CursoryptyN0/lib/x86_64-linux-gnu/:/tmp/.mount_CursoryptyN0/lib/aarch64-linux-gnu/:/tmp/.mount_CursoryptyN0/lib32/:/tmp/.mount_CursoryptyN0/lib64/ PYTHONPATH=/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/landerpi_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages VIRTUAL_ENV_PROMPT=(landerpi) /usr/bin/cmake /home/siyuen/Desktop/ros2_ws/src/teb_local_planner/teb_msgs -DCMAKE_INSTALL_PREFIX=/home/siyuen/Desktop/ros2_ws/install/teb_msgs
+[0.118s] -- The C compiler identification is GNU 11.4.0
+[0.208s] -- The CXX compiler identification is GNU 11.4.0
+[0.218s] -- Detecting C compiler ABI info
+[0.339s] -- Detecting C compiler ABI info - done
+[0.344s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.344s] -- Detecting C compile features
+[0.345s] -- Detecting C compile features - done
+[0.347s] -- Detecting CXX compiler ABI info
+[0.449s] -- Detecting CXX compiler ABI info - done
+[0.459s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.459s] -- Detecting CXX compile features
+[0.460s] -- Detecting CXX compile features - done
+[0.465s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.624s] -- Found Python3: /home/siyuen/.venvs/landerpi/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.717s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.742s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.746s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.752s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.761s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.773s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.783s] -- Found costmap_converter_msgs: 0.1.2 (/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake)
+[0.814s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.057s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.538s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.725s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.753s] -- Found PythonInterp: /home/siyuen/.venvs/landerpi/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.756s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.788s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.788s] -- Using PYTHON_EXECUTABLE: /home/siyuen/.venvs/landerpi/bin/python3
+[1.788s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.788s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.809s] -- Found PythonExtra: .so  
+[1.870s] -- Configuring done
+[1.909s] -- Generating done
+[1.925s] -- Build files have been written to: /home/siyuen/Desktop/ros2_ws/build/teb_msgs
+[2.032s] Invoked command in '/home/siyuen/Desktop/ros2_ws/build/teb_msgs' returned '0': CMAKE_PREFIX_PATH=/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs:/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces:/home/siyuen/Desktop/ros2_ws/install/trac_ik:/home/siyuen/Desktop/ros2_ws/install/trac_ik_kinematics_plugin:/home/siyuen/Desktop/ros2_ws/install/trac_ik_lib:/home/siyuen/Desktop/ros2_ws/install/teb_local_planner:/home/siyuen/Desktop/ros2_ws/install/teb_msgs:/home/siyuen/Desktop/ros2_ws/install/holonomic_sim:/home/siyuen/Desktop/ros2_ws/install/costmap_converter:/home/siyuen/Desktop/ros2_ws/install/winterhack:/home/siyuen/Desktop/ros2_ws/install/robot_gazebo:/home/siyuen/Desktop/ros2_ws/install/landerpi_description:/opt/ros/humble LD_LIBRARY_PATH=/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs/lib:/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces/lib:/home/siyuen/Desktop/ros2_ws/install/trac_ik_kinematics_plugin/lib:/home/siyuen/Desktop/ros2_ws/install/trac_ik_lib/lib:/home/siyuen/Desktop/ros2_ws/install/teb_local_planner/lib:/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib:/home/siyuen/Desktop/ros2_ws/install/holonomic_sim/lib:/home/siyuen/Desktop/ros2_ws/install/costmap_converter/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_CursoryptyN0/usr/lib/:/tmp/.mount_CursoryptyN0/usr/lib32/:/tmp/.mount_CursoryptyN0/usr/lib64/:/tmp/.mount_CursoryptyN0/lib/:/tmp/.mount_CursoryptyN0/lib/i386-linux-gnu/:/tmp/.mount_CursoryptyN0/lib/x86_64-linux-gnu/:/tmp/.mount_CursoryptyN0/lib/aarch64-linux-gnu/:/tmp/.mount_CursoryptyN0/lib32/:/tmp/.mount_CursoryptyN0/lib64/ PYTHONPATH=/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/landerpi_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages VIRTUAL_ENV_PROMPT=(landerpi) /usr/bin/cmake /home/siyuen/Desktop/ros2_ws/src/teb_local_planner/teb_msgs -DCMAKE_INSTALL_PREFIX=/home/siyuen/Desktop/ros2_ws/install/teb_msgs
+[2.033s] Invoking command in '/home/siyuen/Desktop/ros2_ws/build/teb_msgs': CMAKE_PREFIX_PATH=/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs:/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces:/home/siyuen/Desktop/ros2_ws/install/trac_ik:/home/siyuen/Desktop/ros2_ws/install/trac_ik_kinematics_plugin:/home/siyuen/Desktop/ros2_ws/install/trac_ik_lib:/home/siyuen/Desktop/ros2_ws/install/teb_local_planner:/home/siyuen/Desktop/ros2_ws/install/teb_msgs:/home/siyuen/Desktop/ros2_ws/install/holonomic_sim:/home/siyuen/Desktop/ros2_ws/install/costmap_converter:/home/siyuen/Desktop/ros2_ws/install/winterhack:/home/siyuen/Desktop/ros2_ws/install/robot_gazebo:/home/siyuen/Desktop/ros2_ws/install/landerpi_description:/opt/ros/humble LD_LIBRARY_PATH=/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs/lib:/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces/lib:/home/siyuen/Desktop/ros2_ws/install/trac_ik_kinematics_plugin/lib:/home/siyuen/Desktop/ros2_ws/install/trac_ik_lib/lib:/home/siyuen/Desktop/ros2_ws/install/teb_local_planner/lib:/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib:/home/siyuen/Desktop/ros2_ws/install/holonomic_sim/lib:/home/siyuen/Desktop/ros2_ws/install/costmap_converter/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_CursoryptyN0/usr/lib/:/tmp/.mount_CursoryptyN0/usr/lib32/:/tmp/.mount_CursoryptyN0/usr/lib64/:/tmp/.mount_CursoryptyN0/lib/:/tmp/.mount_CursoryptyN0/lib/i386-linux-gnu/:/tmp/.mount_CursoryptyN0/lib/x86_64-linux-gnu/:/tmp/.mount_CursoryptyN0/lib/aarch64-linux-gnu/:/tmp/.mount_CursoryptyN0/lib32/:/tmp/.mount_CursoryptyN0/lib64/ PYTHONPATH=/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/landerpi_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages VIRTUAL_ENV_PROMPT=(landerpi) /usr/bin/cmake --build /home/siyuen/Desktop/ros2_ws/build/teb_msgs -- -j20 -l20
+[2.165s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.226s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.240s] [  4%] Built target ament_cmake_python_copy_teb_msgs
+[2.598s] running egg_info
+[2.598s] creating teb_msgs.egg-info
+[2.600s] writing teb_msgs.egg-info/PKG-INFO
+[2.600s] writing dependency_links to teb_msgs.egg-info/dependency_links.txt
+[2.600s] writing top-level names to teb_msgs.egg-info/top_level.txt
+[2.600s] writing manifest file 'teb_msgs.egg-info/SOURCES.txt'
+[2.601s] reading manifest file 'teb_msgs.egg-info/SOURCES.txt'
+[2.602s] writing manifest file 'teb_msgs.egg-info/SOURCES.txt'
+[2.706s] [  4%] Built target ament_cmake_python_build_teb_msgs_egg
+[2.895s] [  6%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_generator_c.dir/rosidl_generator_c/teb_msgs/msg/detail/trajectory_point_msg__functions.c.o[0m
+[2.900s] [  6%] Built target teb_msgs__cpp
+[2.905s] [  8%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_generator_c.dir/rosidl_generator_c/teb_msgs/msg/detail/feedback_msg__functions.c.o[0m
+[2.908s] [ 10%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_generator_c.dir/rosidl_generator_c/teb_msgs/msg/detail/trajectory_msg__functions.c.o[0m
+[2.973s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.014s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.017s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.106s] [ 19%] [32m[1mLinking C shared library libteb_msgs__rosidl_generator_c.so[0m
+[3.209s] [ 19%] Built target teb_msgs__rosidl_generator_c
+[3.251s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.251s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.275s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.597s] [ 27%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/teb_msgs/msg/detail/dds_fastrtps/feedback_msg__type_support.cpp.o[0m
+[3.613s] [ 29%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/teb_msgs/msg/detail/dds_fastrtps/trajectory_point_msg__type_support.cpp.o[0m
+[3.613s] [ 31%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/teb_msgs/msg/detail/dds_fastrtps/trajectory_msg__type_support.cpp.o[0m
+[3.639s] [ 34%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/teb_msgs/msg/trajectory_point_msg__type_support.cpp.o[0m
+[3.663s] [ 36%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/teb_msgs/msg/trajectory_msg__type_support.cpp.o[0m
+[3.678s] [ 38%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/teb_msgs/msg/feedback_msg__type_support.cpp.o[0m
+[3.793s] [ 40%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/teb_msgs/msg/detail/feedback_msg__type_support.cpp.o[0m
+[3.796s] [ 42%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/teb_msgs/msg/detail/trajectory_point_msg__type_support.cpp.o[0m
+[3.810s] [ 44%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/teb_msgs/msg/detail/trajectory_msg__type_support.cpp.o[0m
+[3.946s] [ 46%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/teb_msgs/msg/detail/feedback_msg__type_support.c.o[0m
+[3.979s] [ 48%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/teb_msgs/msg/detail/trajectory_point_msg__type_support.c.o[0m
+[3.981s] [ 53%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/teb_msgs/msg/feedback_msg__type_support.cpp.o[0m
+[3.985s] [ 53%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/teb_msgs/msg/trajectory_msg__type_support.cpp.o[0m
+[3.985s] [ 55%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/teb_msgs/msg/detail/trajectory_msg__type_support.c.o[0m
+[3.997s] [ 57%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/teb_msgs/msg/trajectory_point_msg__type_support.cpp.o[0m
+[4.167s] [ 59%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teb_msgs/msg/detail/trajectory_point_msg__type_support_c.cpp.o[0m
+[4.199s] [ 61%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teb_msgs/msg/detail/feedback_msg__type_support_c.cpp.o[0m
+[4.205s] [ 63%] [32m[1mLinking C shared library libteb_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.211s] [ 65%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teb_msgs/msg/detail/trajectory_msg__type_support_c.cpp.o[0m
+[4.240s] [ 68%] [32m[1mLinking CXX shared library libteb_msgs__rosidl_typesupport_cpp.so[0m
+[4.247s] [ 70%] [32m[1mLinking CXX shared library libteb_msgs__rosidl_typesupport_c.so[0m
+[4.288s] [ 72%] [32m[1mLinking CXX shared library libteb_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.372s] [ 72%] Built target teb_msgs__rosidl_typesupport_introspection_c
+[4.399s] [ 72%] Built target teb_msgs__rosidl_typesupport_cpp
+[4.442s] [ 72%] Built target teb_msgs__rosidl_typesupport_c
+[4.501s] [ 72%] Built target teb_msgs__rosidl_typesupport_fastrtps_cpp
+[4.501s] [ 74%] [32m[1mLinking CXX shared library libteb_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.627s] [ 74%] Built target teb_msgs__rosidl_typesupport_introspection_cpp
+[4.649s] [ 76%] [32m[1mLinking CXX shared library libteb_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.719s] [ 76%] Built target teb_msgs__rosidl_typesupport_fastrtps_c
+[4.788s] [ 76%] Built target teb_msgs
+[4.819s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.467s] [ 78%] Built target teb_msgs__py
+[5.504s] [ 80%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_generator_py.dir/rosidl_generator_py/teb_msgs/msg/_feedback_msg_s.c.o[0m
+[5.508s] [ 82%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_generator_py.dir/rosidl_generator_py/teb_msgs/msg/_trajectory_msg_s.c.o[0m
+[5.511s] [ 85%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_generator_py.dir/rosidl_generator_py/teb_msgs/msg/_trajectory_point_msg_s.c.o[0m
+[5.659s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/teb_msgs/libteb_msgs__rosidl_generator_py.so[0m
+[5.732s] [ 87%] Built target teb_msgs__rosidl_generator_py
+[5.782s] [ 89%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/teb_msgs/_teb_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.783s] [ 91%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/teb_msgs/_teb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.783s] [ 93%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/teb_msgs/_teb_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.881s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/teb_msgs/teb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.925s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/teb_msgs/teb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.929s] [100%] [32m[1mLinking C shared library rosidl_generator_py/teb_msgs/teb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.947s] [100%] Built target teb_msgs__rosidl_typesupport_c__pyext
+[5.972s] [100%] Built target teb_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.996s] [100%] Built target teb_msgs__rosidl_typesupport_introspection_c__pyext
+[6.012s] Invoked command in '/home/siyuen/Desktop/ros2_ws/build/teb_msgs' returned '0': CMAKE_PREFIX_PATH=/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs:/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces:/home/siyuen/Desktop/ros2_ws/install/trac_ik:/home/siyuen/Desktop/ros2_ws/install/trac_ik_kinematics_plugin:/home/siyuen/Desktop/ros2_ws/install/trac_ik_lib:/home/siyuen/Desktop/ros2_ws/install/teb_local_planner:/home/siyuen/Desktop/ros2_ws/install/teb_msgs:/home/siyuen/Desktop/ros2_ws/install/holonomic_sim:/home/siyuen/Desktop/ros2_ws/install/costmap_converter:/home/siyuen/Desktop/ros2_ws/install/winterhack:/home/siyuen/Desktop/ros2_ws/install/robot_gazebo:/home/siyuen/Desktop/ros2_ws/install/landerpi_description:/opt/ros/humble LD_LIBRARY_PATH=/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs/lib:/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces/lib:/home/siyuen/Desktop/ros2_ws/install/trac_ik_kinematics_plugin/lib:/home/siyuen/Desktop/ros2_ws/install/trac_ik_lib/lib:/home/siyuen/Desktop/ros2_ws/install/teb_local_planner/lib:/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib:/home/siyuen/Desktop/ros2_ws/install/holonomic_sim/lib:/home/siyuen/Desktop/ros2_ws/install/costmap_converter/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_CursoryptyN0/usr/lib/:/tmp/.mount_CursoryptyN0/usr/lib32/:/tmp/.mount_CursoryptyN0/usr/lib64/:/tmp/.mount_CursoryptyN0/lib/:/tmp/.mount_CursoryptyN0/lib/i386-linux-gnu/:/tmp/.mount_CursoryptyN0/lib/x86_64-linux-gnu/:/tmp/.mount_CursoryptyN0/lib/aarch64-linux-gnu/:/tmp/.mount_CursoryptyN0/lib32/:/tmp/.mount_CursoryptyN0/lib64/ PYTHONPATH=/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/landerpi_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages VIRTUAL_ENV_PROMPT=(landerpi) /usr/bin/cmake --build /home/siyuen/Desktop/ros2_ws/build/teb_msgs -- -j20 -l20
+[6.013s] Invoking command in '/home/siyuen/Desktop/ros2_ws/build/teb_msgs': CMAKE_PREFIX_PATH=/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs:/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces:/home/siyuen/Desktop/ros2_ws/install/trac_ik:/home/siyuen/Desktop/ros2_ws/install/trac_ik_kinematics_plugin:/home/siyuen/Desktop/ros2_ws/install/trac_ik_lib:/home/siyuen/Desktop/ros2_ws/install/teb_local_planner:/home/siyuen/Desktop/ros2_ws/install/teb_msgs:/home/siyuen/Desktop/ros2_ws/install/holonomic_sim:/home/siyuen/Desktop/ros2_ws/install/costmap_converter:/home/siyuen/Desktop/ros2_ws/install/winterhack:/home/siyuen/Desktop/ros2_ws/install/robot_gazebo:/home/siyuen/Desktop/ros2_ws/install/landerpi_description:/opt/ros/humble LD_LIBRARY_PATH=/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs/lib:/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces/lib:/home/siyuen/Desktop/ros2_ws/install/trac_ik_kinematics_plugin/lib:/home/siyuen/Desktop/ros2_ws/install/trac_ik_lib/lib:/home/siyuen/Desktop/ros2_ws/install/teb_local_planner/lib:/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib:/home/siyuen/Desktop/ros2_ws/install/holonomic_sim/lib:/home/siyuen/Desktop/ros2_ws/install/costmap_converter/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_CursoryptyN0/usr/lib/:/tmp/.mount_CursoryptyN0/usr/lib32/:/tmp/.mount_CursoryptyN0/usr/lib64/:/tmp/.mount_CursoryptyN0/lib/:/tmp/.mount_CursoryptyN0/lib/i386-linux-gnu/:/tmp/.mount_CursoryptyN0/lib/x86_64-linux-gnu/:/tmp/.mount_CursoryptyN0/lib/aarch64-linux-gnu/:/tmp/.mount_CursoryptyN0/lib32/:/tmp/.mount_CursoryptyN0/lib64/ PYTHONPATH=/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/landerpi_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages VIRTUAL_ENV_PROMPT=(landerpi) /usr/bin/cmake --install /home/siyuen/Desktop/ros2_ws/build/teb_msgs
+[6.028s] -- Install configuration: ""
+[6.028s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/ament_index/resource_index/rosidl_interfaces/teb_msgs
+[6.028s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs
+[6.028s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg
+[6.028s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.029s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail
+[6.029s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__type_support.h
+[6.029s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__functions.h
+[6.029s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__functions.c
+[6.029s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__functions.h
+[6.029s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__type_support.h
+[6.029s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__struct.h
+[6.029s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__functions.h
+[6.029s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__type_support.h
+[6.029s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__struct.h
+[6.030s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__struct.h
+[6.030s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__functions.c
+[6.030s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__functions.c
+[6.030s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/trajectory_point_msg.h
+[6.030s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/trajectory_msg.h
+[6.030s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/feedback_msg.h
+[6.030s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/environment/library_path.sh
+[6.030s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/environment/library_path.dsv
+[6.031s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/libteb_msgs__rosidl_generator_c.so
+[6.031s] -- Set runtime path of "/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/libteb_msgs__rosidl_generator_c.so" to ""
+[6.031s] -- Up-to-date: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs
+[6.031s] -- Up-to-date: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg
+[6.031s] -- Up-to-date: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail
+[6.031s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__rosidl_typesupport_fastrtps_c.h
+[6.031s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__rosidl_typesupport_fastrtps_c.h
+[6.031s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__rosidl_typesupport_fastrtps_c.h
+[6.032s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.032s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_fastrtps_c.so
+[6.032s] -- Set runtime path of "/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[6.032s] -- Up-to-date: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs
+[6.032s] -- Up-to-date: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg
+[6.032s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/feedback_msg.hpp
+[6.033s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/trajectory_point_msg.hpp
+[6.033s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.033s] -- Up-to-date: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail
+[6.033s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__traits.hpp
+[6.033s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__builder.hpp
+[6.033s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__struct.hpp
+[6.033s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__type_support.hpp
+[6.033s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__traits.hpp
+[6.033s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__traits.hpp
+[6.033s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__struct.hpp
+[6.034s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__builder.hpp
+[6.034s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__type_support.hpp
+[6.034s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__struct.hpp
+[6.034s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__type_support.hpp
+[6.034s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__builder.hpp
+[6.034s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/trajectory_msg.hpp
+[6.034s] -- Up-to-date: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs
+[6.034s] -- Up-to-date: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg
+[6.034s] -- Up-to-date: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail
+[6.035s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[6.035s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[6.035s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/dds_fastrtps
+[6.035s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[6.035s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.035s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.035s] -- Set runtime path of "/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.035s] -- Up-to-date: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs
+[6.035s] -- Up-to-date: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg
+[6.035s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.035s] -- Up-to-date: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail
+[6.035s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__type_support.c
+[6.036s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__type_support.c
+[6.036s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__type_support.c
+[6.036s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__rosidl_typesupport_introspection_c.h
+[6.036s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__rosidl_typesupport_introspection_c.h
+[6.036s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__rosidl_typesupport_introspection_c.h
+[6.036s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_introspection_c.so
+[6.036s] -- Set runtime path of "/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_introspection_c.so" to ""
+[6.036s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_c.so
+[6.036s] -- Set runtime path of "/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_c.so" to ""
+[6.036s] -- Up-to-date: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs
+[6.036s] -- Up-to-date: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg
+[6.036s] -- Up-to-date: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail
+[6.037s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__rosidl_typesupport_introspection_cpp.hpp
+[6.037s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__type_support.cpp
+[6.037s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__type_support.cpp
+[6.037s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__rosidl_typesupport_introspection_cpp.hpp
+[6.037s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__type_support.cpp
+[6.037s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__rosidl_typesupport_introspection_cpp.hpp
+[6.037s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_introspection_cpp.so
+[6.037s] -- Set runtime path of "/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[6.037s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_cpp.so
+[6.037s] -- Set runtime path of "/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_cpp.so" to ""
+[6.037s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/environment/pythonpath.sh
+[6.037s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/environment/pythonpath.dsv
+[6.038s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs-0.0.1-py3.10.egg-info
+[6.038s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs-0.0.1-py3.10.egg-info/SOURCES.txt
+[6.038s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs-0.0.1-py3.10.egg-info/dependency_links.txt
+[6.038s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs-0.0.1-py3.10.egg-info/top_level.txt
+[6.038s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs-0.0.1-py3.10.egg-info/PKG-INFO
+[6.038s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs
+[6.038s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/_teb_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.038s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/msg
+[6.038s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/msg/_trajectory_point_msg_s.c
+[6.038s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/msg/_feedback_msg_s.c
+[6.038s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/msg/_trajectory_msg_s.c
+[6.038s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/msg/_feedback_msg.py
+[6.038s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/msg/_trajectory_msg.py
+[6.039s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/msg/__init__.py
+[6.039s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/msg/_trajectory_point_msg.py
+[6.039s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/_teb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.039s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.039s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/libteb_msgs__rosidl_generator_py.so
+[6.039s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.039s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.039s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/_teb_msgs_s.ep.rosidl_typesupport_c.c
+[6.039s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/__init__.py
+[6.082s] Listing '/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs'...
+[6.082s] Compiling '/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/__init__.py'...
+[6.082s] Listing '/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/msg'...
+[6.082s] Compiling '/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/msg/__init__.py'...
+[6.082s] Compiling '/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/msg/_feedback_msg.py'...
+[6.082s] Compiling '/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/msg/_trajectory_msg.py'...
+[6.082s] Compiling '/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/msg/_trajectory_point_msg.py'...
+[6.089s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.090s] -- Set runtime path of "/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.090s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.090s] -- Set runtime path of "/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.090s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.090s] -- Set runtime path of "/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.090s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/libteb_msgs__rosidl_generator_py.so
+[6.091s] -- Set runtime path of "/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/libteb_msgs__rosidl_generator_py.so" to ""
+[6.091s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/msg/FeedbackMsg.idl
+[6.091s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/msg/TrajectoryMsg.idl
+[6.092s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/msg/TrajectoryPointMsg.idl
+[6.092s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/msg/FeedbackMsg.msg
+[6.092s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/msg/TrajectoryMsg.msg
+[6.092s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/msg/TrajectoryPointMsg.msg
+[6.093s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/ament_index/resource_index/package_run_dependencies/teb_msgs
+[6.093s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/ament_index/resource_index/parent_prefix_path/teb_msgs
+[6.093s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/environment/ament_prefix_path.sh
+[6.093s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/environment/ament_prefix_path.dsv
+[6.093s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/environment/path.sh
+[6.093s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/environment/path.dsv
+[6.093s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/local_setup.bash
+[6.094s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/local_setup.sh
+[6.094s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/local_setup.zsh
+[6.094s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/local_setup.dsv
+[6.094s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/package.dsv
+[6.094s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/ament_index/resource_index/packages/teb_msgs
+[6.094s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_generator_cExport.cmake
+[6.095s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.095s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.095s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.095s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_generator_cppExport.cmake
+[6.095s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.095s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.096s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.096s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.096s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_cExport.cmake
+[6.096s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.096s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.096s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.097s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_cppExport.cmake
+[6.097s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.097s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_generator_pyExport.cmake
+[6.097s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.097s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/rosidl_cmake-extras.cmake
+[6.097s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.098s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.098s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.098s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.098s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.099s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.099s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgsConfig.cmake
+[6.099s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgsConfig-version.cmake
+[6.099s] -- Installing: /home/siyuen/Desktop/ros2_ws/install/teb_msgs/share/teb_msgs/package.xml
+[6.103s] Invoked command in '/home/siyuen/Desktop/ros2_ws/build/teb_msgs' returned '0': CMAKE_PREFIX_PATH=/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs:/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces:/home/siyuen/Desktop/ros2_ws/install/trac_ik:/home/siyuen/Desktop/ros2_ws/install/trac_ik_kinematics_plugin:/home/siyuen/Desktop/ros2_ws/install/trac_ik_lib:/home/siyuen/Desktop/ros2_ws/install/teb_local_planner:/home/siyuen/Desktop/ros2_ws/install/teb_msgs:/home/siyuen/Desktop/ros2_ws/install/holonomic_sim:/home/siyuen/Desktop/ros2_ws/install/costmap_converter:/home/siyuen/Desktop/ros2_ws/install/winterhack:/home/siyuen/Desktop/ros2_ws/install/robot_gazebo:/home/siyuen/Desktop/ros2_ws/install/landerpi_description:/opt/ros/humble LD_LIBRARY_PATH=/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs/lib:/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces/lib:/home/siyuen/Desktop/ros2_ws/install/trac_ik_kinematics_plugin/lib:/home/siyuen/Desktop/ros2_ws/install/trac_ik_lib/lib:/home/siyuen/Desktop/ros2_ws/install/teb_local_planner/lib:/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib:/home/siyuen/Desktop/ros2_ws/install/holonomic_sim/lib:/home/siyuen/Desktop/ros2_ws/install/costmap_converter/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_CursoryptyN0/usr/lib/:/tmp/.mount_CursoryptyN0/usr/lib32/:/tmp/.mount_CursoryptyN0/usr/lib64/:/tmp/.mount_CursoryptyN0/lib/:/tmp/.mount_CursoryptyN0/lib/i386-linux-gnu/:/tmp/.mount_CursoryptyN0/lib/x86_64-linux-gnu/:/tmp/.mount_CursoryptyN0/lib/aarch64-linux-gnu/:/tmp/.mount_CursoryptyN0/lib32/:/tmp/.mount_CursoryptyN0/lib64/ PYTHONPATH=/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/landerpi_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages VIRTUAL_ENV_PROMPT=(landerpi) /usr/bin/cmake --install /home/siyuen/Desktop/ros2_ws/build/teb_msgs

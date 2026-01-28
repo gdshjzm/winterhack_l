@@ -1,0 +1,5 @@
+In file included from [01m[K/home/siyuen/Desktop/ros2_ws/src/trac_ik/trac_ik_kinematics_plugin/src/trac_ik_kinematics_plugin.cpp:41[m[K:
+[01m[K/home/siyuen/Desktop/ros2_ws/build/trac_ik_kinematics_plugin/include/trac_ik_kinematics_parameters.hpp:1:164:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: #include "trac_ik_kinematics_parameters.hpp" is deprecated. Use #include <trac_ik_kinematics_plugin/trac_ik_kinematics_parameters.hpp> instead.[m[K’
+    1 | is deprecated. Use #include <trac_ik_kinematics_plugin/trac_ik_kinematics_parameters.hpp> instead."[01;36m[K)[m[K
+      |                                                                                                    [01;36m[K^[m[K
+

@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from winterhack_interfaces/action/Locate.action
+// generated code does not contain a copyright notice
+
+
+module winterhack_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct Locate_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct Locate_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct Locate_Feedback {
+      string stage;
+
+      float progress;
+    };
+  };
+};

@@ -1,0 +1,86 @@
+[0.408s] Invoking command in '/home/siyuen/Desktop/ros2_ws/build/robot_gazebo': PS1=(landerpi) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/siyuen/Desktop/ros2_ws/build/robot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siyuen/Desktop/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(landerpi) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/build --no-deps symlink_data --force
+[0.578s] running develop
+[0.672s] running egg_info
+[0.672s] writing robot_gazebo.egg-info/PKG-INFO
+[0.672s] writing dependency_links to robot_gazebo.egg-info/dependency_links.txt
+[0.672s] writing entry points to robot_gazebo.egg-info/entry_points.txt
+[0.672s] writing requirements to robot_gazebo.egg-info/requires.txt
+[0.672s] writing top-level names to robot_gazebo.egg-info/top_level.txt
+[0.673s] reading manifest file 'robot_gazebo.egg-info/SOURCES.txt'
+[0.675s] writing manifest file 'robot_gazebo.egg-info/SOURCES.txt'
+[0.675s] running build_ext
+[0.675s] Creating /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot-gazebo.egg-link (link to .)
+[0.676s] Installing teleop_key_control script to /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/lib/robot_gazebo
+[0.676s] 
+[0.676s] Installed /home/siyuen/Desktop/ros2_ws/build/robot_gazebo
+[0.676s] running symlink_data
+[0.676s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/resource/robot_gazebo -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/ament_index/resource_index/packages
+[0.677s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/package.xml -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo
+[0.677s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/launch/navigation_exploration.launch.py -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[0.677s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/launch/room_worlds.launch.py -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[0.677s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/launch/worlds.launch.py -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[0.677s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/launch/navigation.launch.py -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[0.677s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/launch/spawn_objects.launch.py -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[0.677s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/launch/spawn_model.launch.py -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[0.677s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/launch/ros_ign_bridge.launch.py -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[0.677s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/launch/slam.launch.py -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[0.678s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/launch/localization.launch.py -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[0.678s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/urdf/camera.gazebo.xacro -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[0.678s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/urdf/wheel_base.urdf.xacro -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[0.678s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/urdf/jetrover.gazebo.xacro -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[0.678s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/urdf/imu.gazebo.xacro -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[0.678s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/urdf/robot.gazebo.xacro -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[0.678s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/urdf/lidar.gazebo.xacro -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[0.678s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/config/nav2_params_exploration.yaml -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+[0.678s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/config/slam.yaml -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+[0.678s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/config/localization.yaml -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+[0.678s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/config/robot_config.yaml -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+[0.678s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/worlds/winterhack_maze.sdf -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds
+[0.678s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/worlds/robocup_home.sdf -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds
+[0.678s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/rviz/slam_exploration.rviz -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/rviz
+[0.678s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/rviz/nav_nav2.rviz -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/rviz
+[0.678s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/rviz/slam.rviz -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/rviz
+[0.679s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/maps/map_01.pgm -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/maps
+[0.679s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/maps/map_01.yaml -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/maps
+[0.679s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/meshes/table.dae -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[0.679s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/meshes/chair.dae -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[0.679s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/meshes/sofa.dae -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[0.679s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/meshes/bed.dae -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[0.679s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/meshes/bookshelft.dae -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[0.679s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/meshes/bottle.stl -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[0.679s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/meshes/cupboard.dae -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[0.679s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/meshes/tea_table.dae -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[0.679s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/meshes/bed/Carpet_Pattern_Squares_Multi.jpg -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bed
+[0.679s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/meshes/bed/Wood_Bamboo.jpg -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bed
+[0.679s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/meshes/bookshelft/Wood_Veneer_02.jpg -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bookshelft
+[0.679s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/meshes/chair/Wood_Cherry_Original.jpg -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/chair
+[0.679s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/meshes/cupboard/Wood_Veneer_02.jpg -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/cupboard
+[0.679s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/meshes/sofa/Carpet_Loop_Pattern.jpg -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/sofa
+[0.679s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/meshes/tea_table/Wood_Cherry_Original.jpg -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/table
+[0.679s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/meshes/tea_table/Wood_Cherry_Original.jpg -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/tea_table
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/meshes/wpr1/fingertip.dae -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/meshes/wpr1/finger.dae -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/meshes/wpr1/upperarm.dae -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/meshes/wpr1/forearm.dae -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/meshes/wpr1/base.dae -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/meshes/wpr1/palm.dae -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/meshes/wpr1/torso.dae -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/models/bookshelft.model -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/models/bed.model -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/models/sofa.model -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/models/tea_table.model -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/models/kai_standing.model -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/models/bottles/red_bottle.model -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/bottles
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/models/bottles/green_bottle.model -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/bottles
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/models/cupboard/cupboard_0.model -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/cupboard
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/models/cupboard/cupboard_1.model -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/cupboard
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/models/table/dinning_table_1.model -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/models/table/dinning_table_3.model -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/models/table/dinning_table_2.model -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/models/table/kitchen_table.model -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/models/table/dinning_table_0.model -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/models/chair/chair_2.model -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/models/chair/chair_0.model -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/models/chair/chair_1.model -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair
+[0.680s] symbolically linking /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/models/chair/chair_3.model -> /home/siyuen/Desktop/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair
+[0.698s] Invoked command in '/home/siyuen/Desktop/ros2_ws/build/robot_gazebo' returned '0': PS1=(landerpi) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/siyuen/Desktop/ros2_ws/build/robot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siyuen/Desktop/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(landerpi) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/siyuen/Desktop/ros2_ws/build/robot_gazebo/build --no-deps symlink_data --force

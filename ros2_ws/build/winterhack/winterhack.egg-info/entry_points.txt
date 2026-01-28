@@ -1,0 +1,7 @@
+[console_scripts]
+detect = winterhack.detect:main
+drop = winterhack.drop:main
+locate = winterhack.locate:main
+mission_runner = winterhack.mission_runner:main
+pick = winterhack.pick:main
+

@@ -1,0 +1,94 @@
+[0.594s] Invoking command in '/home/siyuen/Desktop/ros2_ws/src/landerpi_description': PYTHONPATH=/home/siyuen/Desktop/ros2_ws/build/landerpi_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siyuen/Desktop/ros2_ws/install/landerpi_description/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(landerpi) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/landerpi_description build --build-base /home/siyuen/Desktop/ros2_ws/build/landerpi_description/build install --record /home/siyuen/Desktop/ros2_ws/build/landerpi_description/install.log --single-version-externally-managed install_data
+[0.778s] running egg_info
+[0.778s] creating ../../build/landerpi_description/landerpi_description.egg-info
+[0.778s] writing ../../build/landerpi_description/landerpi_description.egg-info/PKG-INFO
+[0.778s] writing dependency_links to ../../build/landerpi_description/landerpi_description.egg-info/dependency_links.txt
+[0.778s] writing entry points to ../../build/landerpi_description/landerpi_description.egg-info/entry_points.txt
+[0.778s] writing requirements to ../../build/landerpi_description/landerpi_description.egg-info/requires.txt
+[0.779s] writing top-level names to ../../build/landerpi_description/landerpi_description.egg-info/top_level.txt
+[0.779s] writing manifest file '../../build/landerpi_description/landerpi_description.egg-info/SOURCES.txt'
+[0.780s] reading manifest file '../../build/landerpi_description/landerpi_description.egg-info/SOURCES.txt'
+[0.780s] writing manifest file '../../build/landerpi_description/landerpi_description.egg-info/SOURCES.txt'
+[0.780s] running build
+[0.781s] running build_py
+[0.783s] creating /home/siyuen/Desktop/ros2_ws/build/landerpi_description/build
+[0.783s] creating /home/siyuen/Desktop/ros2_ws/build/landerpi_description/build/lib
+[0.783s] creating /home/siyuen/Desktop/ros2_ws/build/landerpi_description/build/lib/landerpi_description
+[0.783s] copying landerpi_description/__init__.py -> /home/siyuen/Desktop/ros2_ws/build/landerpi_description/build/lib/landerpi_description
+[0.783s] running install
+[0.783s] running install_lib
+[0.783s] creating /home/siyuen/Desktop/ros2_ws/install/landerpi_description/lib/python3.10/site-packages/landerpi_description
+[0.783s] copying /home/siyuen/Desktop/ros2_ws/build/landerpi_description/build/lib/landerpi_description/__init__.py -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/lib/python3.10/site-packages/landerpi_description
+[0.783s] byte-compiling /home/siyuen/Desktop/ros2_ws/install/landerpi_description/lib/python3.10/site-packages/landerpi_description/__init__.py to __init__.cpython-310.pyc
+[0.783s] running install_data
+[0.784s] creating /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/ament_index
+[0.784s] creating /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/ament_index/resource_index
+[0.784s] creating /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/ament_index/resource_index/packages
+[0.784s] copying resource/landerpi_description -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/ament_index/resource_index/packages
+[0.784s] copying package.xml -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description
+[0.784s] creating /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/launch
+[0.785s] copying launch/rviz.launch.py -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/launch
+[0.785s] copying launch/robot_description.launch.py -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/launch
+[0.785s] copying launch/display.launch.py -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/launch
+[0.785s] creating /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/urdf
+[0.785s] copying urdf/landerpi.xacro -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/urdf
+[0.785s] copying urdf/ack.xacro -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/urdf
+[0.785s] copying urdf/gripper.urdf.xacro -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/urdf
+[0.785s] copying urdf/lidar.urdf.xacro -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/urdf
+[0.785s] copying urdf/inertial_matrix.xacro -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/urdf
+[0.786s] copying urdf/arm.urdf.xacro -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/urdf
+[0.786s] copying urdf/imu.urdf.xacro -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/urdf
+[0.786s] copying urdf/tank.xacro -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/urdf
+[0.786s] copying urdf/mecanum.xacro -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/urdf
+[0.786s] copying urdf/materials.xacro -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/urdf
+[0.786s] creating /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/rviz
+[0.786s] copying rviz/view.rviz -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/rviz
+[0.786s] creating /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes
+[0.786s] creating /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/acker
+[0.786s] copying meshes/acker/lidar_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/acker
+[0.786s] copying meshes/acker/wheel_rf_Link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/acker
+[0.789s] copying meshes/acker/imu_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/acker
+[0.789s] copying meshes/acker/back_shell_middle_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/acker
+[0.790s] copying meshes/acker/back_shell_black_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/acker
+[0.790s] copying meshes/acker/wheel_rb_Link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/acker
+[0.797s] copying meshes/acker/wheel_lf_Link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/acker
+[0.801s] copying meshes/acker/wheel_lb_Link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/acker
+[0.806s] copying meshes/acker/base_link.stl -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/acker
+[0.806s] creating /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/mecanum
+[0.806s] copying meshes/mecanum/lidar_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/mecanum
+[0.807s] copying meshes/mecanum/imu_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/mecanum
+[0.807s] copying meshes/mecanum/back_shell_middle_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/mecanum
+[0.808s] copying meshes/mecanum/wheel_left_front_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/mecanum
+[0.812s] copying meshes/mecanum/back_shell_black_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/mecanum
+[0.812s] copying meshes/mecanum/wheel_right_front_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/mecanum
+[0.816s] copying meshes/mecanum/base_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/mecanum
+[0.817s] copying meshes/mecanum/wheel_right_back_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/mecanum
+[0.822s] copying meshes/mecanum/wheel_left_back_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/mecanum
+[0.826s] creating /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/tank
+[0.826s] copying meshes/tank/lidar_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/tank
+[0.826s] copying meshes/tank/imu_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/tank
+[0.826s] copying meshes/tank/back_shell_middle_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/tank
+[0.826s] copying meshes/tank/back_shell_black_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/tank
+[0.827s] copying meshes/tank/base_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/tank
+[0.836s] creating /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/gripper
+[0.836s] copying meshes/gripper/guide_rod_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/gripper
+[0.836s] copying meshes/gripper/gripper_right_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/gripper
+[0.836s] copying meshes/gripper/gripper_left_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/gripper
+[0.836s] copying meshes/gripper/gripper_base_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/gripper
+[0.837s] copying meshes/gripper/left_jaw_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/gripper
+[0.837s] copying meshes/gripper/right_jaw_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/gripper
+[0.837s] creating /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/arm
+[0.837s] copying meshes/arm/depth_cam_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/arm
+[0.837s] copying meshes/arm/link2.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/arm
+[0.837s] copying meshes/arm/gripper_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/arm
+[0.838s] copying meshes/arm/link1.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/arm
+[0.838s] copying meshes/arm/camera_connect_link.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/arm
+[0.839s] copying meshes/arm/link3.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/arm
+[0.839s] copying meshes/arm/link4.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/arm
+[0.840s] copying meshes/arm/link5.STL -> /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/arm
+[0.840s] creating /home/siyuen/Desktop/ros2_ws/install/landerpi_description/share/landerpi_description/meshes/mecanum_old
+[0.840s] running install_egg_info
+[0.841s] Copying ../../build/landerpi_description/landerpi_description.egg-info to /home/siyuen/Desktop/ros2_ws/install/landerpi_description/lib/python3.10/site-packages/landerpi_description-0.0.0-py3.10.egg-info
+[0.842s] running install_scripts
+[0.856s] writing list of installed files to '/home/siyuen/Desktop/ros2_ws/build/landerpi_description/install.log'
+[0.874s] Invoked command in '/home/siyuen/Desktop/ros2_ws/src/landerpi_description' returned '0': PYTHONPATH=/home/siyuen/Desktop/ros2_ws/build/landerpi_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siyuen/Desktop/ros2_ws/install/landerpi_description/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(landerpi) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/landerpi_description build --build-base /home/siyuen/Desktop/ros2_ws/build/landerpi_description/build install --record /home/siyuen/Desktop/ros2_ws/build/landerpi_description/install.log --single-version-externally-managed install_data

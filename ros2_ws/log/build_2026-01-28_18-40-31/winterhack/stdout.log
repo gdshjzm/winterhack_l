@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing winterhack.egg-info/PKG-INFO
+writing dependency_links to winterhack.egg-info/dependency_links.txt
+writing entry points to winterhack.egg-info/entry_points.txt
+writing requirements to winterhack.egg-info/requires.txt
+writing top-level names to winterhack.egg-info/top_level.txt
+reading manifest file 'winterhack.egg-info/SOURCES.txt'
+writing manifest file 'winterhack.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack.egg-link (link to .)
+Installing detect script to /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/winterhack
+Installing drop script to /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/winterhack
+Installing locate script to /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/winterhack
+Installing mission_runner script to /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/winterhack
+Installing pick script to /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/winterhack
+
+Installed /home/siyuen/Desktop/ros2_ws/build/winterhack
+running symlink_data

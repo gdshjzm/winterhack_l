@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-199f3286fc592bcf629b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "holonomic_sim",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "HolonomicPlugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HolonomicPlugin-5c580f200e67694c953c.json",
+					"name" : "HolonomicPlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HolonomicPlugin_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HolonomicPlugin_autogen-ac884907c15beca543eb.json",
+					"name" : "HolonomicPlugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "holonomic_sim_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-holonomic_sim_uninstall-09dfe6452bcfa5a593e8.json",
+					"name" : "holonomic_sim_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ign_ros_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ign_ros_node-7067ff75d97e01b1926f.json",
+					"name" : "ign_ros_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ign_ros_node_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ign_ros_node_autogen-7f85c84f3e3e38552b1f.json",
+					"name" : "ign_ros_node_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_vel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_vel-9b3d37ad8cbc2bec1cfa.json",
+					"name" : "robot_vel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_vel_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_vel_autogen-f8d1e4a915d6f30a879a.json",
+					"name" : "robot_vel_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e9999e9abc41fe5dc292.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/siyuen/Desktop/ros2_ws/build/holonomic_sim",
+		"source" : "/home/siyuen/Desktop/ros2_ws/src/holonomic_sim"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

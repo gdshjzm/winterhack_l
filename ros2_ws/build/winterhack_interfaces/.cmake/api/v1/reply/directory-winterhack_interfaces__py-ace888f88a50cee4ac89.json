@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "winterhack_interfaces__py",
+		"source" : "/home/siyuen/Desktop/ros2_ws/build/winterhack_interfaces/winterhack_interfaces__py"
+	}
+}

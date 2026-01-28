@@ -1,0 +1,35 @@
+running egg_info
+writing ../../build/winterhack/winterhack.egg-info/PKG-INFO
+writing dependency_links to ../../build/winterhack/winterhack.egg-info/dependency_links.txt
+writing entry points to ../../build/winterhack/winterhack.egg-info/entry_points.txt
+writing requirements to ../../build/winterhack/winterhack.egg-info/requires.txt
+writing top-level names to ../../build/winterhack/winterhack.egg-info/top_level.txt
+reading manifest file '../../build/winterhack/winterhack.egg-info/SOURCES.txt'
+writing manifest file '../../build/winterhack/winterhack.egg-info/SOURCES.txt'
+running build
+running build_py
+copying winterhack/locate.py -> /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack
+copying winterhack/detect.py -> /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack
+copying winterhack/pick.py -> /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack
+copying winterhack/mission_runner.py -> /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack
+running install
+running install_lib
+copying /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack/locate.py -> /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack
+copying /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack/detect.py -> /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack
+copying /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack/pick.py -> /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack
+copying /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack/mission_runner.py -> /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack
+byte-compiling /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack/locate.py to locate.cpython-310.pyc
+byte-compiling /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack/detect.py to detect.cpython-310.pyc
+byte-compiling /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack/pick.py to pick.cpython-310.pyc
+byte-compiling /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack/mission_runner.py to mission_runner.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/winterhack/winterhack.egg-info to /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack-0.0.0-py3.10.egg-info
+running install_scripts
+Installing detect script to /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/winterhack
+Installing drop script to /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/winterhack
+Installing locate script to /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/winterhack
+Installing mission_runner script to /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/winterhack
+Installing pick script to /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/winterhack
+writing list of installed files to '/home/siyuen/Desktop/ros2_ws/build/winterhack/install.log'
