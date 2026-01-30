@@ -1,0 +1,4 @@
+source;share/winterhack_interfaces/local_setup.bash
+source;share/winterhack_interfaces/local_setup.dsv
+source;share/winterhack_interfaces/local_setup.sh
+source;share/winterhack_interfaces/local_setup.zsh

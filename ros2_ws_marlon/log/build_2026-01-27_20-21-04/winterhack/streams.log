@@ -1,0 +1,90 @@
+[0.735s] Invoking command in '/home/siyuen/Desktop/ros2_ws/src/winterhack': AMENT_PREFIX_PATH=/home/siyuen/Desktop/ros2_ws/install/landerpi_description:/home/siyuen/Desktop/ros2_ws/install/winterhack:/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces:/home/siyuen/Desktop/ros2_ws/install/trac_ik:/home/siyuen/Desktop/ros2_ws/install/trac_ik_kinematics_plugin:/home/siyuen/Desktop/ros2_ws/install/trac_ik_lib:/home/siyuen/Desktop/ros2_ws/install/teb_local_planner:/home/siyuen/Desktop/ros2_ws/install/teb_msgs:/home/siyuen/Desktop/ros2_ws/install/robot_gazebo:/home/siyuen/Desktop/ros2_ws/install/holonomic_sim:/home/siyuen/Desktop/ros2_ws/install/costmap_converter:/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces/lib:/home/siyuen/Desktop/ros2_ws/install/trac_ik_kinematics_plugin/lib:/home/siyuen/Desktop/ros2_ws/install/trac_ik_lib/lib:/home/siyuen/Desktop/ros2_ws/install/teb_local_planner/lib:/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib:/home/siyuen/Desktop/ros2_ws/install/holonomic_sim/lib:/home/siyuen/Desktop/ros2_ws/install/costmap_converter/lib:/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_CursoryptyN0/usr/lib/:/tmp/.mount_CursoryptyN0/usr/lib32/:/tmp/.mount_CursoryptyN0/usr/lib64/:/tmp/.mount_CursoryptyN0/lib/:/tmp/.mount_CursoryptyN0/lib/i386-linux-gnu/:/tmp/.mount_CursoryptyN0/lib/x86_64-linux-gnu/:/tmp/.mount_CursoryptyN0/lib/aarch64-linux-gnu/:/tmp/.mount_CursoryptyN0/lib32/:/tmp/.mount_CursoryptyN0/lib64/ PYTHONPATH=/home/siyuen/Desktop/ros2_ws/build/winterhack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/landerpi_description/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages VIRTUAL_ENV_PROMPT=(landerpi) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/winterhack build --build-base /home/siyuen/Desktop/ros2_ws/build/winterhack/build install --record /home/siyuen/Desktop/ros2_ws/build/winterhack/install.log --single-version-externally-managed install_data
+[1.064s] running egg_info
+[1.065s] creating ../../build/winterhack/winterhack.egg-info
+[1.080s] writing ../../build/winterhack/winterhack.egg-info/PKG-INFO
+[1.080s] writing dependency_links to ../../build/winterhack/winterhack.egg-info/dependency_links.txt
+[1.081s] writing entry points to ../../build/winterhack/winterhack.egg-info/entry_points.txt
+[1.081s] writing requirements to ../../build/winterhack/winterhack.egg-info/requires.txt
+[1.081s] writing top-level names to ../../build/winterhack/winterhack.egg-info/top_level.txt
+[1.081s] writing manifest file '../../build/winterhack/winterhack.egg-info/SOURCES.txt'
+[1.081s] reading manifest file '../../build/winterhack/winterhack.egg-info/SOURCES.txt'
+[1.081s] writing manifest file '../../build/winterhack/winterhack.egg-info/SOURCES.txt'
+[1.081s] running build
+[1.081s] running build_py
+[1.081s] creating /home/siyuen/Desktop/ros2_ws/build/winterhack/build
+[1.081s] creating /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib
+[1.081s] creating /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack
+[1.081s] copying winterhack/locate.py -> /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack
+[1.081s] copying winterhack/detect.py -> /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack
+[1.081s] copying winterhack/moveit2_client.py -> /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack
+[1.081s] copying winterhack/drop.py -> /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack
+[1.081s] copying winterhack/gripper_client.py -> /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack
+[1.081s] copying winterhack/pick.py -> /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack
+[1.081s] copying winterhack/mission_runner.py -> /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack
+[1.081s] copying winterhack/__init__.py -> /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack
+[1.082s] running install
+[1.082s] running install_lib
+[1.082s] creating /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack
+[1.082s] copying /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack/locate.py -> /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack
+[1.082s] copying /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack/detect.py -> /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack
+[1.082s] copying /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack/moveit2_client.py -> /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack
+[1.082s] copying /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack/drop.py -> /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack
+[1.082s] copying /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack/gripper_client.py -> /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack
+[1.082s] copying /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack/pick.py -> /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack
+[1.082s] copying /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack/mission_runner.py -> /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack
+[1.082s] copying /home/siyuen/Desktop/ros2_ws/build/winterhack/build/lib/winterhack/__init__.py -> /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack
+[1.082s] byte-compiling /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack/locate.py to locate.cpython-310.pyc
+[1.082s] byte-compiling /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack/detect.py to detect.cpython-310.pyc
+[1.085s] byte-compiling /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack/moveit2_client.py to moveit2_client.cpython-310.pyc
+[1.089s] byte-compiling /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack/drop.py to drop.cpython-310.pyc
+[1.090s] byte-compiling /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack/gripper_client.py to gripper_client.cpython-310.pyc
+[1.092s] byte-compiling /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack/pick.py to pick.cpython-310.pyc
+[1.095s] byte-compiling /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack/mission_runner.py to mission_runner.cpython-310.pyc
+[1.100s] byte-compiling /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack/__init__.py to __init__.cpython-310.pyc
+[1.102s] running install_data
+[1.102s] creating /home/siyuen/Desktop/ros2_ws/install/winterhack/share/ament_index
+[1.102s] creating /home/siyuen/Desktop/ros2_ws/install/winterhack/share/ament_index/resource_index
+[1.102s] creating /home/siyuen/Desktop/ros2_ws/install/winterhack/share/ament_index/resource_index/packages
+[1.103s] copying resource/winterhack -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/ament_index/resource_index/packages
+[1.103s] copying package.xml -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack
+[1.103s] copying .setup_assistant -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack
+[1.103s] creating /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/launch
+[1.103s] copying launch/navigation.launch.py -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/launch
+[1.103s] copying launch/moveit.launch.py -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/launch
+[1.103s] copying launch/slam.launch.py -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/launch
+[1.103s] copying launch/winterhack.launch.py -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/launch
+[1.103s] copying launch/localization.launch.py -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/launch
+[1.103s] creating /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/config
+[1.104s] copying config/pilz_cartesian_limits.yaml -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/config
+[1.104s] copying config/initial_positions.yaml -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/config
+[1.104s] copying config/rosmentor.ros2_control.xacro -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/config
+[1.107s] copying config/nav2_params_exploration.yaml -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/config
+[1.107s] copying config/sensors_3d.yaml -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/config
+[1.107s] copying config/slam.yaml -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/config
+[1.107s] copying config/rosmentor.srdf -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/config
+[1.107s] copying config/ros2_controllers.yaml -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/config
+[1.108s] copying config/joint_limits.yaml -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/config
+[1.108s] copying config/rosmentor.urdf.xacro -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/config
+[1.108s] copying config/rosmentor.urdf -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/config
+[1.108s] copying config/colors.yaml -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/config
+[1.108s] copying config/moveit_controllers.yaml -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/config
+[1.108s] copying config/kinematics.yaml -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/config
+[1.108s] creating /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/rviz
+[1.108s] copying rviz/moveit.rviz -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/rviz
+[1.108s] copying rviz/nav_nav2.rviz -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/rviz
+[1.108s] copying rviz/nav_moveit.rviz -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/rviz
+[1.108s] creating /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/urdf
+[1.108s] copying urdf/robot.gazebo.xacro -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/urdf
+[1.109s] creating /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/maps
+[1.109s] copying maps/map_01.pgm -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/maps
+[1.109s] copying maps/map_01.yaml -> /home/siyuen/Desktop/ros2_ws/install/winterhack/share/winterhack/maps
+[1.109s] running install_egg_info
+[1.111s] Copying ../../build/winterhack/winterhack.egg-info to /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages/winterhack-0.0.0-py3.10.egg-info
+[1.112s] running install_scripts
+[1.145s] Installing detect script to /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/winterhack
+[1.145s] Installing drop script to /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/winterhack
+[1.145s] Installing locate script to /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/winterhack
+[1.146s] Installing mission_runner script to /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/winterhack
+[1.146s] Installing pick script to /home/siyuen/Desktop/ros2_ws/install/winterhack/lib/winterhack
+[1.147s] writing list of installed files to '/home/siyuen/Desktop/ros2_ws/build/winterhack/install.log'
+[1.193s] Invoked command in '/home/siyuen/Desktop/ros2_ws/src/winterhack' returned '0': AMENT_PREFIX_PATH=/home/siyuen/Desktop/ros2_ws/install/landerpi_description:/home/siyuen/Desktop/ros2_ws/install/winterhack:/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces:/home/siyuen/Desktop/ros2_ws/install/trac_ik:/home/siyuen/Desktop/ros2_ws/install/trac_ik_kinematics_plugin:/home/siyuen/Desktop/ros2_ws/install/trac_ik_lib:/home/siyuen/Desktop/ros2_ws/install/teb_local_planner:/home/siyuen/Desktop/ros2_ws/install/teb_msgs:/home/siyuen/Desktop/ros2_ws/install/robot_gazebo:/home/siyuen/Desktop/ros2_ws/install/holonomic_sim:/home/siyuen/Desktop/ros2_ws/install/costmap_converter:/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces/lib:/home/siyuen/Desktop/ros2_ws/install/trac_ik_kinematics_plugin/lib:/home/siyuen/Desktop/ros2_ws/install/trac_ik_lib/lib:/home/siyuen/Desktop/ros2_ws/install/teb_local_planner/lib:/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib:/home/siyuen/Desktop/ros2_ws/install/holonomic_sim/lib:/home/siyuen/Desktop/ros2_ws/install/costmap_converter/lib:/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_CursoryptyN0/usr/lib/:/tmp/.mount_CursoryptyN0/usr/lib32/:/tmp/.mount_CursoryptyN0/usr/lib64/:/tmp/.mount_CursoryptyN0/lib/:/tmp/.mount_CursoryptyN0/lib/i386-linux-gnu/:/tmp/.mount_CursoryptyN0/lib/x86_64-linux-gnu/:/tmp/.mount_CursoryptyN0/lib/aarch64-linux-gnu/:/tmp/.mount_CursoryptyN0/lib32/:/tmp/.mount_CursoryptyN0/lib64/ PYTHONPATH=/home/siyuen/Desktop/ros2_ws/build/winterhack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/winterhack_interfaces/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/landerpi_description/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/winterhack/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/teb_msgs/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:/home/siyuen/Desktop/ros2_ws/install/costmap_converter_msgs/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages VIRTUAL_ENV_PROMPT=(landerpi) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/winterhack build --build-base /home/siyuen/Desktop/ros2_ws/build/winterhack/build install --record /home/siyuen/Desktop/ros2_ws/build/winterhack/install.log --single-version-externally-managed install_data

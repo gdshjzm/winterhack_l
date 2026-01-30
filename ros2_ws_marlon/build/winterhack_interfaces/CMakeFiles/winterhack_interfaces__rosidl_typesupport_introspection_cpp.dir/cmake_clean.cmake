@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/winterhack_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/winterhack_interfaces/action/detail/drop__type_support.cpp.o"
+  "CMakeFiles/winterhack_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/winterhack_interfaces/action/detail/drop__type_support.cpp.o.d"
+  "CMakeFiles/winterhack_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/winterhack_interfaces/action/detail/locate__type_support.cpp.o"
+  "CMakeFiles/winterhack_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/winterhack_interfaces/action/detail/locate__type_support.cpp.o.d"
+  "CMakeFiles/winterhack_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/winterhack_interfaces/action/detail/pick__type_support.cpp.o"
+  "CMakeFiles/winterhack_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/winterhack_interfaces/action/detail/pick__type_support.cpp.o.d"
+  "libwinterhack_interfaces__rosidl_typesupport_introspection_cpp.pdb"
+  "libwinterhack_interfaces__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/winterhack_interfaces/action/detail/drop__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/winterhack_interfaces/action/detail/drop__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/winterhack_interfaces/action/detail/locate__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/winterhack_interfaces/action/detail/locate__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/winterhack_interfaces/action/detail/pick__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/winterhack_interfaces/action/detail/pick__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/winterhack_interfaces__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

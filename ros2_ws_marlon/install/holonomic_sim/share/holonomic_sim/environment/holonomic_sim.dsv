@@ -1,0 +1,2 @@
+prepend-non-duplicate;IGN_GUI_PLUGIN_PATH;/home/siyuen/Desktop/ros2_ws/install/holonomic_sim/lib
+prepend-non-duplicate;IGN_GAZEBO_SYSTEM_PLUGIN_PATH;/home/siyuen/Desktop/ros2_ws/install/holonomic_sim/lib

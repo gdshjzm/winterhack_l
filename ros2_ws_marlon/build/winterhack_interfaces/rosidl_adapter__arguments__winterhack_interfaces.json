@@ -1,0 +1,8 @@
+{
+  "package_name": "winterhack_interfaces",
+  "non_idl_tuples": [
+    "/home/siyuen/Desktop/ros2_ws/src/winterhack_interfaces:action/Pick.action",
+    "/home/siyuen/Desktop/ros2_ws/src/winterhack_interfaces:action/Drop.action",
+    "/home/siyuen/Desktop/ros2_ws/src/winterhack_interfaces:action/Locate.action"
+  ]
+}
