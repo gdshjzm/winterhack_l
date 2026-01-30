@@ -1,6 +1,29 @@
 # Team L - WinterHack Contributions & Solution
 
-This document details the contributions and modifications made by **Team L** to the WinterHack ROS2 workspace. Our solution introduces robust mission logic, new operating modes, and optimization for both autonomous and manual challenge scenarios.
+This document details the contributions and modifications made by **Team L** to the WinterHack ROS2 workspace. Our solution introduces robust mission logic, new operating modes, and optimization for both autonomous and manual challenge scenarios. For the preworks, please set up environment in the [Jonathan's repository](https://github.com/jonaloo19/winterhack).
+
+## 0. Install flow and Initialization
+
+1) Clone this repo (contains the install scripts and the `ros2_ws` workspace):
+```bash
+git clone https://github.com/jonaloo19/winterhack.git
+cd winterhack
+```
+
+2) Install ROS2 Humble (skips if already present):
+```bash
+chmod +x install_ros2_humble.sh
+./install_ros2_humble.sh
+```
+
+3) Install dependencies, copy the workspace to `~/ros2_ws`, and build:
+```bash
+chmod +x install_gazebo_landerpi.sh
+./install_gazebo_landerpi.sh
+```
+This script installs the ROS2 + Gazebo tooling needed for simulation and navigation, copies the provided workspace into `~/ros2_ws`, builds it, and updates `~/.bashrc` with the workspace and Gazebo resource paths (plus a CPU-render fallback you can disable for GPU rendering).
+ 
+After running, open a new terminal (or `source ~/.bashrc`) to load the environment.
 
 ## 1. Overview of Contributions
 
